@@ -6,7 +6,13 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "ado-smartactions@extension",
-      "strict_min_version": "91.0"
+      "strict_min_version": "152.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ],
+        "optional": []
+      }
     }
   },
   "options_ui": {
@@ -18,8 +24,13 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://dev.azure.com/*"],
-      "js": ["utils.js", "content.js"],
+      "matches": [
+        "https://dev.azure.com/*"
+      ],
+      "js": [
+        "utils.js",
+        "content.js"
+      ],
       "run_at": "document_idle"
     }
   ],
@@ -29,4 +40,3 @@
     "128": "icons/icon128.png"
   }
 }
-
