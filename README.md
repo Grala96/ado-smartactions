@@ -104,6 +104,14 @@ This lets the entire codebase use a single, consistent Promise style with no cal
 
 ---
 
+## Release Notes
+
+You can find information about the following versions in the catalog [`release-notes`](release-notes).
+
+- **[v1.0.0](release-notes/v1.0.0.md)** — First public release – a Git branch name generator from within work items in Azure DevOps, the extension settings page, and a shared source built for Chrome and Firefox.
+
+---
+
 ## License
 
 [GNU General Public License v3.0](LICENSE) — free and open source.
