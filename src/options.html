@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADO SmartActions – Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+
+  <div class="page-header">
+    <h1>⚙️ ADO SmartActions</h1>
+    <p>Smart automation and workflow tweaks for Azure DevOps to eliminate tedious clicks.</p>
+  </div>
+
+  <!-- ── Tab navigation ─────────────────────────────── -->
+  <div class="tab-bar">
+    <button class="tab-btn active" data-target="tab-settings">🪵 Branch Name Generator</button>
+    <button class="tab-btn" data-target="tab-about">ℹ️ About</button>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- Settings tab                                   -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="tab-panel active" id="tab-settings">
+
+    <!-- Branch name format -->
+    <div class="card">
+      <div class="card-title">Branch Name Generator</div>
+      <p class="card-subtitle">Configure how branch names are generated from <strong>Azure DevOps</strong> work items.</p>
+      <div id="parts-list"><!-- rendered by options.js --></div>
+
+      <div class="preview-label">Live preview (sample: User Story 12345 / my-task-title)</div>
+      <div class="preview-box" id="preview"></div>
+    </div>
+
+    <!-- Work item type mapping -->
+    <div class="card">
+      <div class="card-title">Work Item Type Mapping</div>
+      <p class="card-subtitle">
+        Types listed here are included in the branch name. The <em>placeholder</em> shows the default slug
+        (auto-generated from the name) — type a custom value to override it.
+        Any type <strong>not</strong> listed will use the custom fallback below.
+      </p>
+
+      <div id="whitelist-entries"><!-- rendered by options.js --></div>
+
+      <div class="wl-add-row">
+        <input type="text" id="wl-new-input" placeholder="e.g. Spike, Change Request …" />
+        <button class="btn-wl-add" id="btn-wl-add">+ Add</button>
+      </div>
+
+      <div class="fallback-row">
+        <label class="fallback-label" for="custom-fallback-input">Fallback for unlisted types:</label>
+        <input type="text" id="custom-fallback-input" placeholder="custom" />
+        <span class="fallback-hint">used when the work item type is not in the list above</span>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button class="btn-save" id="btn-save">Save settings</button>
+      <button class="btn-reset" id="btn-reset">Reset to defaults</button>
+      <span class="status" id="status"></span>
+    </div>
+
+  </div><!-- /tab-settings -->
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- About tab                                      -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="tab-panel" id="tab-about">
+    <div class="card">
+
+      <!-- Hero -->
+      <div class="about-hero">
+        <img src="icons/icon128.png" alt="ADO SmartActions logo" />
+        <div class="about-hero-text">
+          <h2>ADO SmartActions</h2>
+          <p>Smart automation and workflow tweaks for Azure DevOps<br>to eliminate tedious clicks.</p>
+        </div>
+      </div>
+
+      <hr class="about-divider" />
+
+      <!-- Open source -->
+      <div class="about-section-title">Open Source</div>
+      <div class="about-oss-row">
+        <span class="about-oss-icon">🐙</span>
+        <div class="about-oss-text">
+          This extension is <strong>free and open source</strong> — released under the GNU GPL v3 License.<br>
+          Source code is available on GitHub:
+          <a href="https://github.com/Grala96/ado-smartactions" target="_blank" rel="noopener">
+            github.com/Grala96/ado-smartactions
+          </a><br>
+          Contributions, bug reports and feature requests are welcome!
+        </div>
+      </div>
+
+      <hr class="about-divider" />
+
+      <!-- Browsers -->
+      <div class="about-section-title">Available for</div>
+      <div class="about-browsers">
+
+        <a class="about-browser-card"
+           href="https://addons.mozilla.org/firefox/addon/ado-smartactions/"
+           target="_blank" rel="noopener"
+           title="View on Firefox Add-ons">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg"
+               alt="Firefox" />
+          <div class="about-browser-info">
+            <span class="about-browser-name">Firefox</span>
+            <span class="about-browser-version">v152.0.2</span>
+            <span class="about-browser-badge">✓ Supported</span>
+          </div>
+        </a>
+
+        <a class="about-browser-card"
+           href="https://chromewebstore.google.com/detail/ado-smartactions"
+           target="_blank" rel="noopener"
+           title="View on Chrome Web Store">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg"
+               alt="Chrome" />
+          <div class="about-browser-info">
+            <span class="about-browser-name">Chrome</span>
+            <span class="about-browser-version">v144.0.7559.256</span>
+            <span class="about-browser-badge">✓ Supported</span>
+          </div>
+        </a>
+
+        <a class="about-browser-card"
+           href="https://chromewebstore.google.com/detail/ado-smartactions"
+           target="_blank" rel="noopener"
+           title="View on Chrome Web Store">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Brave_lion_icon.svg"
+               alt="Brave" />
+          <div class="about-browser-info">
+            <span class="about-browser-name">Brave</span>
+            <span class="about-browser-version">v1.91.175</span>
+            <span class="about-browser-version">(Chromium: 149.0.7827.155)</span>
+            <span class="about-browser-badge">✓ Supported</span>
+          </div>
+        </a>
+
+      </div>
+
+      <hr class="about-divider" />
+
+      <!-- Meta links -->
+      <p class="about-meta">
+        <a href="https://github.com/Grala96/ado-smartactions/blob/main/LICENSE"
+           target="_blank" rel="noopener">GNU GPL v3 License</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Grala96/ado-smartactions/issues"
+           target="_blank" rel="noopener">Report an issue</a>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/Grala96/ado-smartactions/blob/main/PRIVACY.md"
+           target="_blank" rel="noopener">Privacy policy</a>
+      </p>
+
+    </div>
+  </div><!-- /tab-about -->
+
+  <script src="utils.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>
+

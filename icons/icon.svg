@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   role="img"
+   aria-label="ADO SmartActions icon"
+   version="1.1"
+   id="svg117"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview119"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="1"
+     inkscape:cx="32"
+     inkscape:cy="371.5"
+     inkscape:window-width="1872"
+     inkscape:window-height="1043"
+     inkscape:window-x="2608"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid866" />
+    <sodipodi:guide
+       position="350,236"
+       orientation="1,0"
+       id="guide17246" />
+    <sodipodi:guide
+       position="380,407"
+       orientation="1,0"
+       id="guide18608" />
+    <sodipodi:guide
+       position="450,372"
+       orientation="1,0"
+       id="guide18610" />
+    <sodipodi:guide
+       position="365,407"
+       orientation="0,-1"
+       id="guide18612" />
+    <sodipodi:guide
+       position="340,337"
+       orientation="0,-1"
+       id="guide18614" />
+    <sodipodi:guide
+       position="325,102"
+       orientation="0,-1"
+       id="guide18616" />
+    <sodipodi:guide
+       position="345,172"
+       orientation="0,-1"
+       id="guide18618" />
+    <sodipodi:guide
+       position="460,292"
+       orientation="0,-1"
+       id="guide18620" />
+    <sodipodi:guide
+       position="475,222"
+       orientation="0,-1"
+       id="guide18622" />
+    <sodipodi:guide
+       position="125,7"
+       orientation="1,0"
+       id="guide19189" />
+    <sodipodi:guide
+       position="385,17"
+       orientation="1,0"
+       id="guide19191" />
+  </sodipodi:namedview>
+  <defs
+     id="defs91">
+    <linearGradient
+       id="bg"
+       x1="64"
+       y1="64"
+       x2="448"
+       y2="448"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#0F6CBD"
+         id="stop81" />
+      <stop
+         offset="1"
+         stop-color="#6B5CFF"
+         id="stop83" />
+    </linearGradient>
+    <linearGradient
+       id="gearFill"
+       x1="120"
+       y1="110"
+       x2="350"
+       y2="380"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91030593,0,0,0.91030593,-49.524551,22.961675)">
+      <stop
+         offset="0"
+         stop-color="#FFFFFF"
+         id="stop86" />
+      <stop
+         offset="1"
+         stop-color="#C9D8FF"
+         id="stop88" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect
+     x="32"
+     y="32"
+     width="448"
+     height="448"
+     rx="96"
+     fill="url(#bg)"
+     id="rect93" />
+  <!-- Workflow connectors behind gear -->
+  <!-- Workflow nodes -->
+  <!-- Proper gear silhouette -->
+  <path
+     fill="url(#gearFill)"
+     fill-rule="evenodd"
+     d="m 168.13872,158.89767 3.86879,-34.39136 c 7.65622,-0.66996 15.35632,-0.66996 23.01254,0 l 3.8688,34.39136 c 6.78548,1.07352 13.43976,2.85532 19.85377,5.31618 l 20.55471,-27.83715 c 6.96416,3.24514 13.63167,7.09214 19.9266,11.49716 l -13.83665,31.72416 c 5.33697,4.32211 10.20638,9.19151 14.52848,14.52849 l 31.72416,-13.83665 c 4.40503,6.29493 8.25203,12.96244 11.49717,19.92659 l -27.83716,20.55472 c 2.46087,6.414 4.24266,13.06829 5.31619,19.85377 l 34.39135,3.86879 c 0.33359,3.8121 0.50107,7.63507 0.50247,11.45809 0.002,3.85515 -0.16608,7.71032 -0.50247,11.55446 l -34.39135,3.86879 c -1.07353,6.78548 -2.85532,13.43976 -5.31619,19.85377 l 27.83716,20.55472 c -3.24514,6.96415 -7.09214,13.63166 -11.49717,19.92659 L 259.91576,317.8735 c -4.3221,5.33697 -9.19151,10.20638 -14.52848,14.52849 l 13.83665,31.72416 c -6.29493,4.40502 -12.96244,8.25202 -19.9266,11.49716 l -20.55471,-27.83715 c -6.41401,2.46086 -13.06829,4.24265 -19.85377,5.31618 l -3.8688,34.39135 c -7.65622,0.66997 -15.35632,0.66997 -23.01254,0 l -3.86879,-34.39135 c -6.78548,-1.07353 -13.43977,-2.85532 -19.85378,-5.31618 l -20.55471,27.83715 c -6.96415,-3.24514 -13.63166,-7.09214 -19.92659,-11.49716 l 13.83665,-31.72416 c -5.33698,-4.32211 -10.20639,-9.19152 -14.52849,-14.52849 l -31.724159,13.83665 c -4.405033,-6.29493 -8.252026,-12.96244 -11.497165,-19.92659 l 27.837155,-20.55472 c -2.460866,-6.41401 -4.242659,-13.06829 -5.316193,-19.85377 l -34.391357,-3.86879 c -0.669956,-7.65623 -0.669956,-15.35633 0,-23.01255 l 34.391357,-3.86879 c 1.073534,-6.78548 2.855327,-13.43977 5.316193,-19.85377 L 63.890476,200.21645 c 3.245139,-6.96415 7.092132,-13.63166 11.497165,-19.92659 l 31.724159,13.83665 c 4.3221,-5.33698 9.19151,-10.20638 14.52849,-14.52849 l -13.83665,-31.72416 c 6.29493,-4.40502 12.96244,-8.25202 19.92659,-11.49716 l 20.55471,27.83715 c 6.41401,-2.46086 13.0683,-4.24266 19.85378,-5.31618 z m 15.37506,38.84275 c -32.1759,0 -58.25955,26.08371 -58.25955,58.25958 0,32.17588 26.08365,58.25959 58.25955,58.25959 32.1759,0 58.25955,-26.08371 58.25955,-58.25959 0,-32.17587 -26.08365,-58.25958 -58.25955,-58.25958 z"
+     id="path111"
+     style="fill:url(#gearFill);stroke-width:0.91;stroke-miterlimit:4;stroke-dasharray:none"
+     sodipodi:nodetypes="ccccccccccccccscccccccccccccccccccccccccccccccccccsssss" />
+  <!-- Inner circle / automation state -->
+  <!-- Checkmark -->
+  <path
+     d="m 148.90447,261.65284 22.31037,22.31037 43.79442,-47.92597"
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="19.8314"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path115" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Connector"
+     style="display:inline">
+    <path
+       d="M 285,256 H 390"
+       id="path97"
+       style="opacity:0.9;mix-blend-mode:normal;fill:#d5e1ff;fill-opacity:1;stroke:#d6e1ff;stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.60000002;paint-order:normal" />
+    <path
+       d="M 350,248 V 139.43112 h 34.48656"
+       id="path95"
+       style="opacity:0.9;mix-blend-mode:normal;fill:none;stroke:#d6e1ff;stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.60000002;paint-order:normal"
+       sodipodi:nodetypes="ccc" />
+    <path
+       d="m 350,264 v 109.44911 h 34.48656"
+       id="path1549"
+       style="opacity:0.9;fill:none;stroke:#d6e1ff;stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.60000002;paint-order:normal"
+       sodipodi:nodetypes="ccc" />
+    <path
+       d="M 125,435 H 385"
+       id="path97-3-6"
+       style="display:inline;opacity:0.9;mix-blend-mode:normal;fill:#d5e1ff;fill-opacity:1;stroke:#d6e1ff;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.6;paint-order:normal" />
+    <path
+       d="M 125,80 H 385"
+       id="path97-3-6-2"
+       style="display:inline;opacity:0.9;mix-blend-mode:normal;fill:#d5e1ff;fill-opacity:1;stroke:#d6e1ff;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.6;paint-order:normal" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Windows"
+     style="display:inline">
+    <rect
+       x="385.00003"
+       y="225.00002"
+       width="60.000004"
+       height="60.000004"
+       rx="12.413794"
+       id="rect1440-6"
+       style="fill:#dce8ff;stroke:#2d4fd7;stroke-width:10" />
+    <rect
+       x="385"
+       y="345"
+       width="60.000004"
+       height="60.000004"
+       rx="12.413794"
+       id="rect1440-6-5"
+       style="display:inline;fill:#dce8ff;stroke:#2d4fd7;stroke-width:10" />
+    <rect
+       x="385"
+       y="110"
+       width="60.000004"
+       height="60.000004"
+       rx="12.413794"
+       id="rect1440-6-7"
+       style="display:inline;fill:#dce8ff;stroke:#2d4fd7;stroke-width:10" />
+  </g>
+</svg>
