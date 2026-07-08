@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# build.sh – copies shared source files from src/ into each browser directory.
+# build.sh – copies shared source files from src/ into each browser directory
+#            and packages each browser extension into a versioned ZIP archive.
 #
 # Usage:
 #   ./build.sh           # build all browsers
@@ -22,8 +23,11 @@ fi
 SHARED_FILES=("utils.js" "content.js" "options.js" "options.html" "options.css")
 ICON_SIZES=(16 48 128)
 SRC_DIR="$(dirname "$0")/src"
-ROOT_DIR="$(dirname "$0")"
+ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SVG_ICON="${ROOT_DIR}/icons/icon.svg"
+DIST_DIR="${ROOT_DIR}/dist"
+
+mkdir -p "$DIST_DIR"
 
 # Detect SVG-to-PNG converter
 if command -v inkscape &>/dev/null; then
@@ -61,6 +65,17 @@ for browser in "${BROWSERS[@]}"; do
     done
   else
     echo "    ⚠️  ${SVG_ICON} not found – icons skipped."
+  fi
+
+  # Package into a versioned ZIP archive
+  MANIFEST="${DEST_DIR}/manifest.json"
+  if [[ -f "$MANIFEST" ]]; then
+    VERSION=$(grep '"version"' "$MANIFEST" | head -1 | sed 's/.*"version"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/')
+    ZIP_NAME="${browser}-ado-smartactions-v${VERSION}.zip"
+    (cd "$DEST_DIR" && zip -qr "${DIST_DIR}/${ZIP_NAME}" .)
+    echo "    📦  dist/${ZIP_NAME}"
+  else
+    echo "    ⚠️  manifest.json not found in ${browser}/ – ZIP skipped."
   fi
 done
 

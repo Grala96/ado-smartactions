@@ -15,3 +15,6 @@ firefox/options.js
 firefox/options.html
 firefox/options.css
 firefox/icons
+
+# Ignore build output
+dist/
