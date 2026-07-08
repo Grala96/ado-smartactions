@@ -25,7 +25,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://dev.azure.com/*"
+        "https://dev.azure.com/*",
+        "https://*.visualstudio.com/*"
       ],
       "js": [
         "utils.js",
