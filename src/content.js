@@ -8,7 +8,7 @@
   // ── Constants ─────────────────────────────────────────────────────────────
 
   const BUTTON_ID = 'ado-smartactions-branch-gen-btn';
-  const WORKITEM_URL_PATTERN = /\/dev\.azure\.com\/.+\/_workitems\/edit\/(\d+)/;
+  const WORKITEM_URL_PATTERN = /(?:\/dev\.azure\.com\/.+|\.visualstudio\.com\/.+)\/_workitems\/edit\/(\d+)/;
 
   // ── Storage ───────────────────────────────────────────────────────────────
 

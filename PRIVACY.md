@@ -1,6 +1,6 @@
 # Privacy Policy for ADO SmartActions
 
-**Last updated:** 19 June 2026
+**Last updated:** 8 July 2026
 
 Your privacy is extremely important. **ADO SmartActions** is built with a privacy-first approach.
 
@@ -12,7 +12,7 @@ All data processed by the extension (such as work item IDs, titles, and types) i
 
 ## 3. Permissions
 The extension requests permissions strictly necessary for its functionality:
-* Access to `dev.azure.com` (or your custom Azure DevOps domain) to detect work items and automate actions like branch naming.
+* Access to `dev.azure.com` and `*.visualstudio.com` (the two domains used by Azure DevOps) to detect work items and automate actions like branch naming.
 
 ## 4. Changes to This Policy
 We may update this Privacy Policy from time to time. Any changes will be posted directly in this repository.

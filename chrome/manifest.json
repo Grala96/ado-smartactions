@@ -7,7 +7,7 @@
   "permissions": ["storage"],
   "content_scripts": [
     {
-      "matches": ["https://dev.azure.com/*"],
+      "matches": ["https://dev.azure.com/*", "https://*.visualstudio.com/*"],
       "js": ["utils.js", "content.js"],
       "run_at": "document_idle"
     }

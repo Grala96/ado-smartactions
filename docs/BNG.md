@@ -6,9 +6,10 @@ Automatically generates a properly formatted Git branch name from the currently 
 
 ## How it works
 
-1. Navigate to any ADO work item page, e.g.:
+1. Navigate to any ADO work item page. Both Azure DevOps hosting variants are supported:
    ```
    https://dev.azure.com/YOUR-ORG/YOUR-PROJECT/_workitems/edit/1653488/
+   https://YOUR-ORG.visualstudio.com/YOUR-PROJECT/_workitems/edit/1653488/
    ```
 
 ![Navigate to a work item](img/how-to-use-branch-name-generator.png)   
