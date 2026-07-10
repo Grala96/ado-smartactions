@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "ADO SmartActions",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Smart automation and workflow tweaks for Azure DevOps to eliminate tedious clicks.",
   "browser_specific_settings": {
     "gecko": {
@@ -25,7 +25,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://dev.azure.com/*"
+        "https://dev.azure.com/*",
+        "https://*.visualstudio.com/*"
       ],
       "js": [
         "utils.js",
